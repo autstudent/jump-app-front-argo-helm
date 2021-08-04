@@ -1,9 +1,0 @@
-project: san20-jump-app
-pod:
-  replicas: 5
-  port: 3000
-  protocol: TCP
-service:
-  port: 8080
-route:
-  security: Redirect
